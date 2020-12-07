@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/992aa269-7049-429e-a33f-b2f57ee8ea68/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/tecmarttestings",
+    "appService.deploySubpath": "."
+}
