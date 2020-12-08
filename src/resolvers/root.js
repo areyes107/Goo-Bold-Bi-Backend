@@ -2,7 +2,9 @@
 async function rootResolver(request, response){
   try {
     response.send({ message:"200" });
-  } catch(Error){}
+  } catch(error){
+    console.error(error);
+  }
 }
 
 module.exports  = {
